@@ -7,7 +7,8 @@ def gcd(a,b):
     if a == b:
         return a
 
-
+#This is main logic of this program,
+#here this process continues utill both a and b becomes equal.
     if a > b :
         return gcd(a-b,a)
     return gcd(a,b-a)

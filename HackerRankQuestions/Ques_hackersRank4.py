@@ -8,4 +8,4 @@ num1 = int(input())
 num2 = int(input())
 
 result = add_numbers(num1,num2)
-print("The sum of gioven numbers is : ",result)
+print("The sum of given numbers is : ",result)

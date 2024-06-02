@@ -14,7 +14,7 @@ else:
     result = add(a, b)
 print("The sum of given numbers is:", result)
 
-
+print()
 #Add Two Numbers with User Input and string fromat
 
 num1 = input()

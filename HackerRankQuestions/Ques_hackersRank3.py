@@ -12,7 +12,6 @@ print()
 
 num3 = int(input())
 num4 = int(input())
+
 result = prod_number(num3,num4)
-
-
 print("The sum of gievn numbers is : ",result)
