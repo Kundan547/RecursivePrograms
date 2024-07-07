@@ -6,6 +6,3 @@ def factorial(n):
 
 result = int(input("Enter a number: "))
 print(factorial(result)) 
-
-#for i in range(0,result):
-#	print(factorial(i), end=" ")
