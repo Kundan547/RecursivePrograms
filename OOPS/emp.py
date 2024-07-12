@@ -21,3 +21,10 @@ print(emp1.fullname())
 print(emp2.fullname())
 
 print(emp2.pay)
+
+
+print(emp1.__dict__)
+print(emp2.__dict__)
+print()
+
+print(Employee.__dict__)
