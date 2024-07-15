@@ -10,5 +10,6 @@ def count_anagrams(parent: str, child: str) -> int:
         window_counter = Counter(parent[i:i + child_len])
         if window_counter == child_counter:
             count += 1
-
+    print(count_anagrams('AdnBndAndBdaBn', 'dAn'))  
+    print(count_anagrams('AbrAcadAbRa', 'cAda'))  
     return count
