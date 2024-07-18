@@ -37,9 +37,9 @@ emp2 = Employee('Maan', 'Singh', 50000)
 
 Employee.set_rasie_amt(1.05)
 
-#print(Employee.raise_amt)
-#print(emp1.raise_amt)
-#print(emp2.raise_amt)
+print(Employee.raise_amt)
+print(emp1.raise_amt)
+print(emp2.raise_amt)
 
 emp_str_1 = 'kunal-verma-25000'
 emp_str_2 = 'Karthik -vyas-50000'
