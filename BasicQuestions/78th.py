@@ -7,4 +7,5 @@ res = {}
 for i in range(len(test_dict['month'])):
     res[test_dict['month'][i]] = test_dict['name'][i]
 
+
 print("Updated dictionary : " + str(res))
