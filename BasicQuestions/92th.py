@@ -15,5 +15,4 @@ for i in test_dict.keys():
 	for j in test_list:
 		c += test_dict[i].count(j)
 	res[i] = c
-# print result
 print("The summation of element occurrence : " + str(res))
