@@ -18,3 +18,6 @@ unique(list1)
 list2 = [1, 2, 1, 1, 3, 4, 3, 3, 5]
 print("\nthe unique values from 2nd list is")
 unique(list2)
+
+list3 = [1,4,2,7,2,8,5,8]
+unique(list3)
