@@ -7,7 +7,8 @@ class Vehicle:
     print("Move!")
 
 class Car(Vehicle):
-  pass
+  def move(self):
+    return super().move()
 
 class Boat(Vehicle):
   def move(self):
