@@ -40,6 +40,7 @@ class Manager(Employee):
 dev1 = Developer('Kundan', 'Vyas', 50000, 'Python')
 dev2 = Developer('Avinash', 'Vyas', 60000, 'Java')
 dev3 = Developer('Lokesh', 'Singh', 45000, 'PHP')
+dev4 = Developer('Karthik', 'Vyas', 55000, 'C++')
 
 mgr_1 = Manager('KD', 'SHRAMA', 90000, [dev1])
 print(mgr_1.email)
@@ -48,6 +49,7 @@ mgr_1.add_emp(dev2)
 mgr_1.add_emp(dev1)
 #mgr_1.remove_emp(dev1)
 mgr_1.add_emp(dev3)
+mgr_1.add_emp(dev4)
 
 print("Employees managed by {}:".format(mgr_1.fullname()))
 for emp in mgr_1.employees:
