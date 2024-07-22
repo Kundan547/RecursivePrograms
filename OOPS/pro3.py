@@ -8,6 +8,6 @@ class Animal:
         print(f"My name is {self.name}")
 
 Tommy = Animal("Tommy")
-Jacky = Animal("Jacky")
+Jacky = Animal("Jacky") 
 Tommy.speck()
 Jacky.speck()
