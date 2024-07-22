@@ -22,5 +22,5 @@ class Employee(Person):
 	def getID(self): 
 		return self.empID 
 
-emp = Employee("Geek1", "E101") 
+emp = Employee("Delta", "E101") 
 print(emp.getName(), emp.isEmployee(), emp.getID()) 
