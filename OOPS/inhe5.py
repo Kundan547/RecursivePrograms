@@ -10,7 +10,6 @@ class Student(Person):
     def __init__(self, name, age):
         self.sName = name
         self.sAge = age
-        # From Base class
         super().__init__("Kuldeep", '19')
 
     def displayInfo(self):
